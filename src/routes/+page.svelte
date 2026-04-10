@@ -122,33 +122,10 @@
 			style="background: #2D6A4F; transform: scaleX({visible ? 1 : 0}); transition-delay: 0.55s;"
 		></div>
 
-		<!-- Service cards -->
-		<nav
-			class="mt-10 grid sm:grid-cols-2 gap-3 text-left transition-all duration-600"
-			style="opacity: {visible ? 1 : 0}; transform: translateY({visible ? '0' : '12px'}); transition-delay: 0.6s;"
-		>
-			<a href="/web-development" class="group card">
-				<span class="card-title">Web Development</span>
-				<span class="card-sub">Frontend & Backend</span>
-			</a>
-			<a href="/business-intelligence" class="group card">
-				<span class="card-title">Business Intelligence</span>
-				<span class="card-sub">Data & Analytics</span>
-			</a>
-			<a href="/project-management" class="group card">
-				<span class="card-title">Project Management</span>
-				<span class="card-sub">Planning & Delivery</span>
-			</a>
-			<a href="/consulting" class="group card">
-				<span class="card-title">Consulting & Strategy</span>
-				<span class="card-sub">Content & Executive</span>
-			</a>
-		</nav>
-
 		<!-- CTA -->
 		<div
 			class="mt-8 transition-all duration-500"
-			style="opacity: {visible ? 1 : 0}; transition-delay: 0.7s;"
+			style="opacity: {visible ? 1 : 0}; transition-delay: 0.6s;"
 		>
 			<a
 				href="/contact"
@@ -164,33 +141,3 @@
 	</div>
 </main>
 
-<style>
-	.card {
-		padding: 1rem;
-		border-radius: 0.75rem;
-		background: #FFFFFF;
-		border: 1px solid #E8F0E8;
-		transition: all 0.2s ease;
-	}
-	.card:hover {
-		box-shadow: 0 4px 12px rgba(45, 106, 79, 0.08);
-		border-color: #C8D8C8;
-		transform: translateY(-2px);
-	}
-	.card-title {
-		display: block;
-		font-size: 0.875rem;
-		font-weight: 600;
-		color: #1A2E1A;
-		transition: transform 0.2s ease;
-	}
-	.group:hover .card-title {
-		transform: translateX(2px);
-	}
-	.card-sub {
-		display: block;
-		font-size: 0.75rem;
-		margin-top: 0.25rem;
-		color: #9BA89B;
-	}
-</style>
