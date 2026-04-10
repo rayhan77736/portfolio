@@ -48,6 +48,30 @@
 					class="mt-6 w-16 h-px transition-transform duration-500"
 					style="background: #2D6A4F; transform-origin: left; transform: scaleX({visible ? 1 : 0}); transition-delay: 0.4s;"
 				></div>
+
+				<div
+					class="mt-5 flex flex-wrap items-center gap-4 transition-all duration-500"
+					style="opacity: {visible ? 1 : 0}; transform: translateY({visible ? '0' : '8px'}); transition-delay: 0.5s;"
+				>
+					<span class="flex items-center gap-1.5 text-xs" style="color: #9BA89B;">
+						<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+						</svg>
+						Sylhet, Bangladesh (GMT+6)
+					</span>
+					<a
+						href="/rayhan-ahmed-cv.pdf"
+						download
+						class="flex items-center gap-1.5 text-xs font-medium transition-colors duration-200"
+						style="color: #2D6A4F;"
+					>
+						<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+						</svg>
+						Download CV
+					</a>
+				</div>
 			</div>
 
 			{#if image}

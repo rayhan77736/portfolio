@@ -6,6 +6,8 @@ export const data: PortfolioPageData = {
 	tagline: 'Getting things done, properly',
 	subtitle:
 		'Organized project coordinator with experience managing teams, timelines, and compliance across education and operations. Proven ability to keep things on track.',
+	about:
+		"I ended up in project management the way most people do — by being the one who actually remembered the deadlines. Between counseling students at Zakir's, managing compliance at M.S. Explorers, and now juggling remote work with a UK team alongside my Master's, I've gotten good at keeping things moving without dropping balls. I'm not a PMP-certified PM (yet), but I get things done.",
 	sections: [
 		{ id: 'experience', label: 'Experience' },
 		{ id: 'skills', label: 'Skills' },
@@ -82,9 +84,9 @@ export const data: PortfolioPageData = {
 	],
 	certifications: [
 		{
-			title: 'British Council UK Agent & Counsellor Certificate',
-			issuer: 'M.S. Explorers (Code: 79561)',
-			year: '2025'
+			title: "Master's in Information Technology",
+			issuer: 'Shahjalal University of Science and Technology (SUST)',
+			year: '2026 — Present'
 		},
 		{
 			title: 'BSc in Computer Science & Engineering',
@@ -92,9 +94,9 @@ export const data: PortfolioPageData = {
 			year: '2021 — 2025'
 		},
 		{
-			title: "Master's in Information Technology",
-			issuer: 'Shahjalal University of Science and Technology (SUST)',
-			year: '2026 — Present'
+			title: 'British Council UK Agent & Counsellor Certificate',
+			issuer: 'M.S. Explorers (Code: 79561)',
+			year: '2025'
 		}
 	],
 	cta: {

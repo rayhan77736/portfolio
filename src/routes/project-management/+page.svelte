@@ -5,6 +5,7 @@
 	import SkillsGrid from '$lib/components/SkillsGrid.svelte';
 	import Certifications from '$lib/components/Certifications.svelte';
 	import CallToAction from '$lib/components/CallToAction.svelte';
+	import About from '$lib/components/About.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { data } from '$lib/data/project-management';
 </script>
@@ -18,6 +19,7 @@
 
 <main>
 	<Hero name="Rayhan Ahmed" tagline={data.tagline} subtitle={data.subtitle} image="/1F0A2279.JPG" />
+	{#if data.about}<About text={data.about} />{/if}
 	<ExperienceTimeline entries={data.experience} />
 	<SkillsGrid categories={data.skills} />
 	<Certifications items={data.certifications} />

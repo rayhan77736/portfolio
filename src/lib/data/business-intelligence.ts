@@ -6,6 +6,8 @@ export const data: PortfolioPageData = {
 	tagline: 'Making sense of data',
 	subtitle:
 		"Certified BI Analyst with hands-on experience in SQL, data tools, and operational reporting. Pursuing a Master's in Information Technology at SUST.",
+	about:
+		"I've always been the person who wants to see the numbers before making a decision. My BI journey started with a data analyst role at Cero House, and since then I've gotten certified, worked with real databases at Datumotion, and spent a year and a half tracking compliance data at M.S. Explorers. I'm not a data scientist — I'm the person who makes sure the data actually makes sense to the people who need it.",
 	sections: [
 		{ id: 'experience', label: 'Experience' },
 		{ id: 'skills', label: 'Skills' },
@@ -82,6 +84,16 @@ export const data: PortfolioPageData = {
 	],
 	certifications: [
 		{
+			title: "Master's in Information Technology",
+			issuer: 'Shahjalal University of Science and Technology (SUST)',
+			year: '2026 — Present'
+		},
+		{
+			title: 'BSc in Computer Science & Engineering',
+			issuer: 'Leading University, Sylhet',
+			year: '2021 — 2025'
+		},
+		{
 			title: 'Business Intelligence Analyst Certificate',
 			issuer: 'Akaademy (Batch 2401)',
 			year: '2024'
@@ -92,14 +104,9 @@ export const data: PortfolioPageData = {
 			year: '2025'
 		},
 		{
-			title: 'BSc in Computer Science & Engineering',
-			issuer: 'Leading University, Sylhet',
-			year: '2021 — 2025'
-		},
-		{
-			title: "Master's in Information Technology",
-			issuer: 'Shahjalal University of Science and Technology (SUST)',
-			year: '2026 — Present'
+			title: 'Python 101 For Hackers',
+			issuer: 'TCM Security',
+			year: '2023'
 		}
 	],
 	cta: {

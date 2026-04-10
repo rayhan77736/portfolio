@@ -6,6 +6,8 @@ export const data: PortfolioPageData = {
 	tagline: 'Guidance that connects the dots',
 	subtitle:
 		'British Council certified agent and counsellor. Combining technical knowledge, operational experience, and people skills to advise on education, digital strategy, and business operations.',
+	about:
+		"I'm someone who can sit in a room with a developer and a business owner and translate between the two. My background is technical — CS degree, web development, databases — but my work experience has been just as much about people. Counseling students, navigating compliance, advising on processes. I don't have all the answers, but I'm good at asking the right questions and figuring things out together.",
 	sections: [
 		{ id: 'experience', label: 'Experience' },
 		{ id: 'skills', label: 'Skills' },
@@ -82,14 +84,9 @@ export const data: PortfolioPageData = {
 	],
 	certifications: [
 		{
-			title: 'British Council UK Agent & Counsellor Certificate',
-			issuer: 'M.S. Explorers (Code: 79561)',
-			year: '2025'
-		},
-		{
-			title: 'Business Intelligence Analyst Certificate',
-			issuer: 'Akaademy (Batch 2401)',
-			year: '2024'
+			title: "Master's in Information Technology",
+			issuer: 'Shahjalal University of Science and Technology (SUST)',
+			year: '2026 — Present'
 		},
 		{
 			title: 'BSc in Computer Science & Engineering',
@@ -97,9 +94,19 @@ export const data: PortfolioPageData = {
 			year: '2021 — 2025'
 		},
 		{
-			title: "Master's in Information Technology",
-			issuer: 'Shahjalal University of Science and Technology (SUST)',
-			year: '2026 — Present'
+			title: 'British Council UK Agent & Counsellor Certificate',
+			issuer: 'M.S. Explorers (Code: 79561)',
+			year: '2025'
+		},
+		{
+			title: 'Certified Ethical Hacker (CEH)',
+			issuer: 'Team Matrix — Elite Hackers',
+			year: '2023'
+		},
+		{
+			title: 'Business Intelligence Analyst Certificate',
+			issuer: 'Akaademy (Batch 2401)',
+			year: '2024'
 		}
 	],
 	cta: {

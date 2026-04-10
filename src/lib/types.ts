@@ -23,6 +23,7 @@ export interface PortfolioPageData {
 	title: string;
 	tagline: string;
 	subtitle?: string;
+	about?: string;
 	sections: { id: string; label: string }[];
 	experience: TimelineEntry[];
 	skills: SkillCategory[];

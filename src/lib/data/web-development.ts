@@ -6,6 +6,8 @@ export const data: PortfolioPageData = {
 	tagline: 'Building for the modern web',
 	subtitle:
 		'Full-stack developer working with SvelteKit, PostgreSQL, and modern tooling. Currently building production applications at Datumotion Ltd UK.',
+	about:
+		"I'm Rayhan — a CS grad from Sylhet who got into coding by tinkering with random projects during university. What started as curiosity turned into a career. I now work remotely for a UK-based company building web apps with SvelteKit and PostgreSQL, while doing my Master's in IT at SUST. I like clean code, simple designs, and figuring out how things work under the hood.",
 	sections: [
 		{ id: 'experience', label: 'Experience' },
 		{ id: 'skills', label: 'Skills' },
@@ -94,14 +96,24 @@ export const data: PortfolioPageData = {
 	],
 	certifications: [
 		{
+			title: "Master's in Information Technology",
+			issuer: 'Shahjalal University of Science and Technology (SUST)',
+			year: '2026 — Present'
+		},
+		{
 			title: 'BSc in Computer Science & Engineering',
 			issuer: 'Leading University, Sylhet',
 			year: '2021 — 2025'
 		},
 		{
-			title: "Master's in Information Technology",
-			issuer: 'Shahjalal University of Science and Technology (SUST)',
-			year: '2026 — Present'
+			title: 'Certified Ethical Hacker (CEH)',
+			issuer: 'Team Matrix — Elite Hackers',
+			year: '2023'
+		},
+		{
+			title: 'Python 101 For Hackers',
+			issuer: 'TCM Security',
+			year: '2023'
 		}
 	],
 	cta: {
